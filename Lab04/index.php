@@ -1,13 +1,3 @@
-<?php
-    
-    function dev(){
-        $myfile = fopen("number.csv", "r") or die("Unable to open file!");
-        echo fread($myfile,filesize("number.csv"));
-        fclose($myfile);
-    }
-
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
